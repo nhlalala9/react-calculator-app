@@ -166,6 +166,9 @@ function App() {
         <DigitButton digit="." dispatch={dispatch} />
         <DigitButton digit="0" dispatch={dispatch} />
         
+        <button className="span-two" onClick={() => dispatch({type: ACTIONS.EVALUATE})}>
+            =
+        </button>
 
       </div>
 
