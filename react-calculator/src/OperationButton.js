@@ -1,7 +1,7 @@
 import React from 'react'
 import { ACTIONS } from './App'
 
-export default function OperationButton(dispatch,operation) {
+export default function OperationButton({dispatch,operation}) {
   return (
     <button
       onClick={() =>
